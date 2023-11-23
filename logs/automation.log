@@ -241,3 +241,11 @@
 [INFO ] 2023-11-23 14:25:23.534 [main] UserTests - =============== Updating  User info End===========
 [INFO ] 2023-11-23 14:25:23.535 [main] UserTests - =============== Delete User Started===========
 [INFO ] 2023-11-23 14:25:24.699 [main] UserTests - =============== Delete User Ended===========
+[INFO ] 2023-11-23 15:31:12.137 [main] UserTests - ===============Create User test is start===========
+[INFO ] 2023-11-23 15:31:15.729 [main] UserTests - ===============Create User test is Ended===========
+[INFO ] 2023-11-23 15:31:15.742 [main] UserTests - =============== User Info is start===========
+[INFO ] 2023-11-23 15:31:16.910 [main] UserTests - =============== User Info is End===========
+[INFO ] 2023-11-23 15:31:16.911 [main] UserTests - =============== Updating  User info is start===========
+[INFO ] 2023-11-23 15:31:19.154 [main] UserTests - =============== Updating  User info End===========
+[INFO ] 2023-11-23 15:31:19.156 [main] UserTests - =============== Delete User Started===========
+[INFO ] 2023-11-23 15:31:20.310 [main] UserTests - =============== Delete User Ended===========
