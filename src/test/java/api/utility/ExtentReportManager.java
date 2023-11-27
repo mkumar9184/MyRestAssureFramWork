@@ -32,7 +32,7 @@ public class ExtentReportManager implements ITestListener
 		
 		sparkreport =new  ExtentSparkReporter(".\\reports\\"+repName);
 		sparkreport.config().setDocumentTitle("MY RestAssureApiAutomation Testing Report");
-		sparkreport.config().setReportName("PetApi Automatin");
+		sparkreport.config().setReportName("PetApi Automation");
 		sparkreport.config().setTheme(Theme.DARK);
 		
 		extent = new ExtentReports();

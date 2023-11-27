@@ -4,14 +4,18 @@ import static io.restassured.RestAssured.given;
 
 import java.util.ResourceBundle;
 
+import org.junit.Test;
+
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
 import api.payload.User;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class UserEndPoint {
-	
+	public ExtentTest test;
 	//get Url from properties file
-	
 	static  ResourceBundle  getUrl(){
 		
 		ResourceBundle routes = ResourceBundle.getBundle("routes");
@@ -20,9 +24,7 @@ public class UserEndPoint {
 	}
 	
 	public static Response createUser(User payload){
-		
 		String post_UrlEndpoint =getUrl().getString("post_Url");
-		
 		System.out.println("post_UrlEndpoint == "+post_UrlEndpoint);
 		 
 		Response response=
